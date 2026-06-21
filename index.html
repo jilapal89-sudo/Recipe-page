@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Recipe page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 0.6875rem; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    img {
+    border-radius: 30px;
+    height: 30rem;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    }
+    .gap{ 
+      padding-left:20px;
+    }
+    @font-face {
+    font-family: 'YoungSerif';
+    src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+    @font-face {
+    font-family: 'Outfit';
+    src: url('./assets/fonts/outfit/static/Outfit-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+    h3 {
+      color: #DE3E3E;
+      font-family:'YoungSerif', sans-serif;
+      font-size: 30px;
+    }
+    p, li, div {
+      font-family:'Outfit', serif;
+      font-weight: 200;
+      font-size: 20px;
+      line-height:2;
+    }
+    li {
+      padding-left: 30px;
+    }
+    span {
+      font-weight: bold;
+    }
+    .col {
+      width: 80px;
+      text-align: right;
+      color: #7F2020;
+      font-weight: bold;
+    }
+    .back{
+      background-color:#fad1e6;
+      border-radius: 20px;
+      padding: 3px;
+      padding-left: 20px;
+    }
+    ol li::marker {
+      color:#7F2020;
+      font-weight:bold;
+    }
+    .space {
+     display: flex;
+     justify-content: space-between;
+     width: 50%; 
+     padding-left: 20px;
+     border-bottom: 1px solid #e0e0e0;
+    }
+    hr {
+   border: none;
+    border-top: 1px solid #e0e0e0;  /* thin gray line */
+   margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <img src="./assets/images/image-omelette.jpeg" alt="OMlette dish">
+  <div class="gap">
+  <h3 style="font-size: 50px; color:black;padding-left:30px;">Simple Omelette Recipe</h3>
+  <p style="padding-left:30px;">An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
+  to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
+  <div class="back">
+  <h2 style="color:#FF4081">Preparation time</h2>
+  <ul>
+  <li><span>Total:</span> Approximately 10 minutes</li>
+  <li><span>Preparation:</span> 5 minutes</li>
+  <li><span>Cooking:</span> 5 minutes</li>
+  </ul>
+  </div>
+  <h3>Ingredients</h3>
+  <ul>
+  <li>2-3 large eggs</li>
+  <li>Salt, to taste</li>
+  <li>Pepper, to taste</li>
+  <li>1 tablespoon of butter or oil</li>
+  <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+  </ul>
+  <hr>
+  <h3>Instructions</h3>
+  <ol>
+  <li><span>Beat the eggs:</span> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
+  You can add a tablespoon of water or milk for a fluffier texture.</li>
+
+  <li><span>Heat the pan:</span> Place a non-stick frying pan over medium heat and add butter or oil.</li>
+
+  <li><span>Cook the omelette:</span> Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
+  the eggs evenly coat the surface.</li>
+
+  <li><span>Add fillings (optional):</span> When the eggs begin to set at the edges but are still slightly runny in the 
+  middle, sprinkle your chosen fillings over one half of the omelette.</li>
+
+  <li><span>Fold and serve:</span> As the omelette continues to cook, carefully lift one edge and fold it over the 
+  fillings. Let it cook for another minute, then slide it onto a plate.</li>
+
+  <li><span>Enjoy:</span> Serve hot, with additional salt and pepper if needed.</li>
+  </ol>
+  <hr>
+  <h3>Nutrition</h3>
+
+  <p style="padding-left:30px;">The table below shows nutritional values per serving without the additional fillings.</p>
+  <div>
+  <div class="space">
+    <span class="first">Calories</span>
+    <span class="col">277kcal</span>
+  </div>
+
+  <div class="space">
+    <span  class="first">Carbs</span>
+    <span class="col">0g</span>
+  </div>
+
+  <div class="space">
+    <span  class="first">Protein</span>
+    <span class="col">20g</span>
+  </div>
+
+  <div class="space">
+    <span  class="first">Fat</span>
+    <span class="col">22g</span>
+  </div>
+</div>
+  </div>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </footer>
+</body>
+</html>
